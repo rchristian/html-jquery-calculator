@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
+body {
+	background: #bbb;
+	color: #494949;
+}
+
+.container {
+	margin-top: 40px;
+	width: 400px;
+	box-shadow: 1px 1px 10px #010101;
+}
+
+.display {
+	height: 145px;
+	background-color: #F4F4F8;
+	display: flex;
+	align-items: center;
+}
+
+input {
+	border: none;
+}
+
+#dis {
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 100;
+	background-color: #F4F4F8;
+	height: 140px;
+	font-size: 80px;
+}
+
+.keypad {
+	height: 500px;
+}
+
+.calc-keys {
+	padding: 0px;
+}
+
+.num-btn,
+.num-btn:hover,
+.num-btn:focus,
+.num-btn:focus:active,
+.num-btn:active,
+.decimal,
+.decimal:hover,
+.decimal:focus,
+.decimal:focus:active,
+.decimal:active,
+.clear-last,
+.clear-last:hover,
+.clear-last:focus,
+.clear-last:focus:active,
+.clear-last:active,
+.equals,
+.equals:hover,
+.equals:focus,
+.equals:focus:active,
+.equals:active,
+.exponent,
+.exponent:hover,
+.exponent:focus,
+.exponent:focus:active,
+.exponent:active {
+	background-color: #6BC7D6;
+}
+
+.operators,
+.square,
+.square:hover,
+.square:focus,
+.square:focus:active,
+.square:active{
+	background-color: #FED766;
+}
+
+.operators:hover,
+.operators:focus,
+.operators:focus:hover,
+.operators:active {
+	background-color: #FED766;
+}
+
+.button {
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #494949;
+	height: 100px;
+	width: 100px;
+}
+
+.btn-danger {
+	background-color: #FE4A49;
+	border: none;
+	border-radius: 0;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:focus:hover {
+	background-color: #FE4A49;
+	color: #494949;
+	border: none;
+}
+
+.btn-danger:active,
+.btn-danger:active:focus,
+.btn-danger:active:hover {
+	background-color: #FE4A49;
+	color: #494949;
+	box-shadow: inset 0 2px 5px #494949;
+}
+
+.btn-default {
+	border-radius: 0;
+}
+
+.btn-default:active {
+	box-shadow: inset 0 2px 5px #494949;
+}

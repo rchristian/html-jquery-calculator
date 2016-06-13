@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML & JQuery Calculator</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+	<!--display row-->
+	<div class="row">
+		<div class="display col-md-12 col-sm-12 col-xs-12">
+			<input type="text" id="dis" val="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right" readonly>
+		</div>
+	</div>
+
+	<!--keypad area-->
+	<div class="keypad row">
+		<div class="calc-keys col-md-12 col-sm-12 col-xs-12">
+			<!--First Row-->
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<input type="button" value="AC" class="clear-all button btn-danger btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="CE" class="clear-last button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="E" class="exponent button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="&radic;" class="square button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+				</div>
+			</div>
+			<!--Second Row-->
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<input type="button" value="1" class="num-btn button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="2" class="num-btn button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="3" class="num-btn button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="&divide;" class="operators button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+				</div>
+			</div>
+			<!--Third Row-->
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<input type="button" value="4" class="num-btn button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="5" class="num-btn button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="6" class="num-btn button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="&times;" class="operators button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+				</div>
+			</div>
+			<!--Fourth Row-->
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<input type="button" value="7" class="num-btn button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="8" class="num-btn button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="9" class="num-btn button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="&minus;" class="operators button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+				</div>
+			</div>
+			<!--Last Row-->
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<input type="button" value="." class="decimal button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="0" class="num-btn button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="=" class="equals button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+					<input type="button" value="+" class="operators button btn-default btn-lg col-md-3 col-sm-3 col-xs-3">
+				</div>
+			</div>
+		</div>
+		<!--End Row of Keys-->
+	</div>
+</div>
+<!--End Container-->
+
+<!--AC clears all<br>
+CE clears last digit<br>
+E exponent<br>
+Less pale color for ac hover
+box shadow display-->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
